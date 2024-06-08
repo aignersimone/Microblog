@@ -1,0 +1,102 @@
+body{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	background-color: lightsteelblue;
+}
+
+label {
+	display: flex;
+	align-items: center;
+
+}
+
+input,
+textarea {
+	margin-left: 10px; /* Abstand zwischen Label und Eingabefeld */
+	margin-right: 10px;
+}
+
+.content label{
+	display: unset;
+	width: 150px;
+}
+
+.content {
+	background-color: lightcyan;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+	border: 2px solid black;
+}
+
+.row {
+	margin-bottom: 1px;
+	display: flex;
+	padding: 0.2em;
+}
+
+.row label {
+	margin-right: 10px;
+}
+
+.error{
+	border-color: red;
+}
+
+
+.logreg{
+	border: 1px solid black;
+	padding: 0.8em;
+	margin: 0.8em;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.info{
+	color: red;
+	text-align: center;
+	padding-top: 0.5em;
+}
+
+input, textarea{
+	background-color: white;
+}
+
+input[type="submit"] {
+	background-color: black;
+	color: white;
+	padding: 5px 20px;
+	border-radius: 0;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: white;
+	color: black;
+}
+
+.userEntry{
+	background-color: lightseagreen;
+	border: 2px solid black;
+}
+
+.error{
+	border-color: red;
+}
+
+span.error{
+	color: red;
+}
+
+div.button-group {
+	display: flex !important;
+}
+
+.button-group div {
+	margin: 0; /* Entfernt den Standardabstand um die Formulare */
+}
+
+
